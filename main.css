@@ -1,0 +1,44 @@
+.schema
+.quit
+.schema
+.quit
+.schema
+.quit
+.quit
+SELECT * FROM book;
+UPDATE book
+SET title = 'Madonna',
+    author = 'Andrew Morton'
+WHERE bookId = 2;
+.quit
+UPDATE category
+SET categoryName = 'Scores and Charts'
+WHERE categoryId = 4;
+.quit
+.tables
+SELECT * FROM categories;
+SELECT * FROM CATEGORY;
+SELECT * FROM BOOK;
+DELETE FROM book WHERE 
+;
+SELECT * FROM BOOK;
+DELETE FROM book WHERE title = 'ewr';
+SELECT * FROM book;
+python3 app.py
+;
+.quit
+.tables
+.quit
+SELECT * FROM BOOK;
+SELECT * FROM CATEGORY;
+.quit
+.tables
+.quit
+SELECT * FROM CATEGORY ORDER BY CATEGORYNAME;
+.quit
+SELECT * FROM CATEGORY;
+.quit
+DELETE FROM book 
+WHERE isbn = 23040923480239;
+.quit
+.quit
